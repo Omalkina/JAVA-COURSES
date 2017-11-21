@@ -3,10 +3,12 @@ import java.util.Scanner;
 public class Lesson5 {
 
     public static void main(String[] args) {
-        lesson5Ex1();
-        lesson5Ex2();
-        lesson5Ex3();
-        lesson5Ex4();}
+//        lesson5Ex1();
+//        lesson5Ex2();
+//        lesson5Ex3();
+        lesson5Ex4();
+//        lesson5Ex5();
+    }
 
     static void lesson5Ex1() {
         Scanner in = new Scanner(System.in);
@@ -49,15 +51,28 @@ public class Lesson5 {
 
     static void lesson5Ex4() {
         Scanner in = new Scanner(System.in);
-        System.out.print("Задание 4:  Введите чему равно A: ");
+        System.out.print("Задание 4:  Введите двухзначное целое число: ");
+        int TestNumber = in.nextInt();
+        System.out.print("Задание 4:  Введите двухзначное целое число: ");
+        int TestNumber1 = in.nextInt();
+        int a = TestNumber;
+        int b = TestNumber1;
+        System.out.println("Первое число: " + a);
+        System.out.println("Второе число: " + b);
+        if (a == b) System.out.println("Оба числа равны :" + a);
+        if (a > b) System.out.println("Больший модуль у числа " + a);
+        else System.out.println("Больший модуль у числа " + b);
+    }
+
+    static void lesson5Ex5() {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Задание 5:  Введите чему равно A: ");
         long a = in.nextInt();
-        System.out.print("Задание 4:  Введите чему равно B: ");
+        System.out.print("Задание 5:  Введите чему равно B: ");
         long b = in.nextInt();
-        System.out.print("Задание 4:  Введите чему равно C: ");
+        System.out.print("Задание 5:  Введите чему равно C: ");
         long c = in.nextInt();
         long result =(a + b - c / a) + c * a * a - (a + b);
         System.out.println(  "Результат расчета по формуле: (а + b - с / а) + с * a * a - (a + b) =  " +result);
-
     }
-
 }
