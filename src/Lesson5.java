@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class Lesson5 {
 
-    public static void main(String[] args) {        lesson5Ex1();
+    public static void main(String[] args) {
+        lesson5Ex1();
         lesson5Ex2();
         lesson5Ex3();
-
         lesson5Ex4();
         lesson5Ex5();
     }
