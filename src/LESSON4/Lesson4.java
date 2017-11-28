@@ -1,16 +1,18 @@
+package LESSON4;
+
 import java.util.Scanner;
 
-public class Lesson5 {
+public class Lesson4 {
 
     public static void main(String[] args) {
-        lesson5Ex1();
-        lesson5Ex2();
-        lesson5Ex3();
-        lesson5Ex4();
-        lesson5Ex5();
+        Lesson4Ex1();
+        Lesson4Ex2();
+        Lesson4Ex3();
+        Lesson4Ex4();
+        Lesson4Ex5();
     }
 
-    static void lesson5Ex1() {
+    static void Lesson4Ex1() {
         Scanner in = new Scanner(System.in);
         System.out.print("Задание 1:  Введите двухзначное целое число: ");
         int TestNumber = in.nextInt();
@@ -24,7 +26,7 @@ public class Lesson5 {
     }
 
 
-    static void lesson5Ex2() {
+    static void Lesson4Ex2() {
         Scanner in = new Scanner(System.in);
         System.out.print("Задание 2:  Введите четырехзначное целое число: ");
         long UserNumber = in.nextInt();
@@ -40,7 +42,7 @@ public class Lesson5 {
     }
 
 
-    static void lesson5Ex3() {
+    static void Lesson4Ex3() {
         Scanner in = new Scanner(System.in);
         System.out.print("Задание 3:  Введите количество грамм для конверсии: ");
         float GrammNumber = in.nextInt();
@@ -49,7 +51,7 @@ public class Lesson5 {
         System.out.println(kilos+ "Килограмм на весах");
     }
 
-    static void lesson5Ex4() {
+    static void Lesson4Ex4() {
         Scanner in = new Scanner(System.in);
         System.out.print("Задание 4:  Введите двухзначное целое число: ");
         int TestNumber = in.nextInt();
@@ -64,7 +66,7 @@ public class Lesson5 {
         else System.out.println("Больший модуль у числа " + b);
     }
 
-    static void lesson5Ex5() {
+    static void Lesson4Ex5() {
         Scanner in = new Scanner(System.in);
         System.out.print("Задание 5:  Введите чему равно A: ");
         long a = in.nextInt();

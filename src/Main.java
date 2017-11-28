@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.Scanner;
+
 public class Main {
 // Game Homework Task-1 class template
     public static void main(String[] args) {
@@ -100,6 +101,7 @@ class Loop {
 // Array class template
 class Massive {
     public static void main(String[] args) {
+
         int[] arr = new int[10];
         arr[9] = 10;
         for(int i=0; i<10; i++) {
@@ -107,6 +109,8 @@ class Massive {
         }
         System.out.println(Arrays.toString(arr));
     }
+
+
 }
 
 // Conversion class template

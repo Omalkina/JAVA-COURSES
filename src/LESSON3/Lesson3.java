@@ -1,3 +1,5 @@
+package LESSON3;
+
 public class Lesson3 {
 
     private static int Pmax = 27;
