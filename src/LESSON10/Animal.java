@@ -20,5 +20,12 @@ package LESSON10;
         public int getEatFoodQuantity() {
             return eatFoodQuantity;
         }
+        @Override
+        public void consume(Creature victim) {
+            if (victim instanceof Bug) {
+                mass=mass+((victim.getMass()/100*consumePercentage));
+            }
+
+        }
     }
 

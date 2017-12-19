@@ -20,4 +20,11 @@ public class Cat extends Creature{
     public int getWaightCat() {
         return waightCat;
     }
+    @Override
+    public void consume(Creature victim) {
+        if (victim instanceof Bug) {
+            mass=mass+((victim.getMass()/100*consumePercentage));
+        }
+
+    }
 }

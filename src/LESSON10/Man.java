@@ -23,5 +23,12 @@ public class Man extends Creature {
     public float getWeight() {
         return weight;
     }
+    @Override
+    public void consume(Creature victim) {
+        if (victim instanceof Bug) {
+            mass=mass+((victim.getMass()/100*consumePercentage));
+        }
+
+    }
 }
 

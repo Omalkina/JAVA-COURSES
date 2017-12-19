@@ -15,4 +15,12 @@ public class Mouse extends Creature{
     public int getWaightMouse() {
         return waightMouse;
     }
+
+    @Override
+    public void consume(Creature victim) {
+        if (victim instanceof Bug) {
+            mass=mass+((victim.getMass()/100*consumePercentage));
+        }
+
+    }
 }
